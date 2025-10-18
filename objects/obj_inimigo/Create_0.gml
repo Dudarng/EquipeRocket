@@ -1,3 +1,5 @@
+ hp = 100
+ amount = 0
 
 hp -= amount;
 speed = 2;

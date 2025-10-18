@@ -1,4 +1,4 @@
-if (state == "patrol") {
+ if (state == "patrol") {
     x += speed * dir;
     if (x < patrol_left) dir = 1;
     if (x > patrol_right) dir = -1;
