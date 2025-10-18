@@ -50,8 +50,9 @@
     {"id":{"name":"obj_menu_controller","path":"objects/obj_menu_controller/obj_menu_controller.yy",},},
     {"id":{"name":"obj_moeda","path":"objects/obj_moeda/obj_moeda.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
-    {"id":{"name":"Room_menu","path":"rooms/Room_menu/Room_menu.yy",},},
-    {"id":{"name":"Room_salaInicial","path":"rooms/Room_salaInicial/Room_salaInicial.yy",},},
+    {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
+    {"id":{"name":"Room_1_1","path":"rooms/Room_1_1/Room_1_1.yy",},},
+    {"id":{"name":"Room_1","path":"rooms/Room_1/Room_1.yy",},},
     {"id":{"name":"spt_box","path":"sprites/spt_box/spt_box.yy",},},
     {"id":{"name":"spt_chao","path":"sprites/spt_chao/spt_chao.yy",},},
     {"id":{"name":"spt_checkBox","path":"sprites/spt_checkBox/spt_checkBox.yy",},},
@@ -63,8 +64,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room_menu","path":"rooms/Room_menu/Room_menu.yy",},},
-    {"roomId":{"name":"Room_salaInicial","path":"rooms/Room_salaInicial/Room_salaInicial.yy",},},
+    {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
+    {"roomId":{"name":"Room_1","path":"rooms/Room_1/Room_1.yy",},},
+    {"roomId":{"name":"Room_1_1","path":"rooms/Room_1_1/Room_1_1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
