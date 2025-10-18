@@ -1,6 +1,6 @@
 window_set_size(1280,720)
 
-global.vida= 3;
+global.vida= 2;
 global.itens = 0;
 velh	= 0;
 velv	= 0;
