@@ -12,9 +12,11 @@ for (var i = 0; i < array_length(menu_options); i++) {
 
 
     if (i == selected)
-        draw_set_color(c_red);
+        draw_set_color(c_yellow);
     else
         draw_set_color(c_white);
 
     draw_text(350, y1 -80, texto);
 }
+
+//TESTE LUIZ É FEIO
