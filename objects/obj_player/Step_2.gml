@@ -33,7 +33,7 @@ if(_col)
 		y = _col.bbox_bottom + (y- bbox_top);
 	}
 	velv = 0;
-}
+} 
 
 y += velv;
 

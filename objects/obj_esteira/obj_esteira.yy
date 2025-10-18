@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_moeda",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_esteira",
+  "eventList":[],
   "managed":true,
-  "name":"obj_moeda",
+  "name":"obj_esteira",
   "overriddenProperties":[],
   "parent":{
     "name":"itens",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spt_moeda",
-    "path":"sprites/spt_moeda/spt_moeda.yy",
+    "name":"spt_checkBox",
+    "path":"sprites/spt_checkBox/spt_checkBox.yy",
   },
   "spriteMaskId":null,
   "visible":true,

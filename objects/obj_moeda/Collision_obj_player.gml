@@ -1,3 +1,3 @@
-global.itens +=1;
+ global.itens +=1;
 
 instance_destroy()
