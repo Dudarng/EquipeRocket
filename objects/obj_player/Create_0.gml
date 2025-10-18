@@ -1,4 +1,4 @@
-
+window_set_size(1280,720)
 
 global.vida= 3;
 global.itens = 0;
