@@ -21,10 +21,10 @@ if (item != noone && keyboard_check(ord("K"))) {
 }
 
 else {
-    with (obj_box) {
+    with (obj_box) { 
         if (isCarried && carrier == other.id) {
             isCarried = false;
             carrier = noone;
         }
     }
-}
+} 

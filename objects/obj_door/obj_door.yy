@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spt_door",
-    "path":"sprites/spt_door/spt_door.yy",
+    "name":"spt_escada",
+    "path":"sprites/spt_escada/spt_escada.yy",
   },
   "spriteMaskId":null,
   "visible":true,

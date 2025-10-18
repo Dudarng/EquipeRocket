@@ -56,7 +56,7 @@
     {"id":{"name":"spt_box","path":"sprites/spt_box/spt_box.yy",},},
     {"id":{"name":"spt_chao","path":"sprites/spt_chao/spt_chao.yy",},},
     {"id":{"name":"spt_checkBox","path":"sprites/spt_checkBox/spt_checkBox.yy",},},
-    {"id":{"name":"spt_door","path":"sprites/spt_door/spt_door.yy",},},
+    {"id":{"name":"spt_escada","path":"sprites/spt_escada/spt_escada.yy",},},
     {"id":{"name":"spt_inimigo","path":"sprites/spt_inimigo/spt_inimigo.yy",},},
     {"id":{"name":"spt_moeda","path":"sprites/spt_moeda/spt_moeda.yy",},},
     {"id":{"name":"spt_player","path":"sprites/spt_player/spt_player.yy",},},
