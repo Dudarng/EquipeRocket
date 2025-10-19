@@ -6,7 +6,7 @@ velh	= 0;
 velv	= 0;
 vel		= 5;
 grav    = 0.3;
-vel_jump =15.5;
+vel_jump =15;
 
 inputs = {
 		left	: ord("A"),
