@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_terminal",
+  "%Name":"Object15",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":13,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_terminal",
+  "name":"Object15",
   "overriddenProperties":[],
   "parent":{
     "name":"Interects",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_terminal",
-    "path":"sprites/spr_terminal/spr_terminal.yy",
+    "name":"Sprite11",
+    "path":"sprites/Sprite11/Sprite11.yy",
   },
   "spriteMaskId":null,
   "visible":true,
