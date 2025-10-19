@@ -1,6 +1,19 @@
-hp -= other.attack;
-image_blend = c_red; alarm[0] = 6; // flash de dano
-if (hp <= 0) {
-    state = "dead";
-    // trocar sprite para morte, instanciar partículas, dar xp/drops
-}
+// pega a room atual (ID)
+var r = room;
+
+// escolhe fala por room
+switch (r) {
+    case Room_1: // use o nome do resource da room (asset) definido no seu projeto
+        current_dialog = "Você entrou na sala 1. Prepare-se!";
+        break;
+    case Room_1_1:
+        current_dialog = "Sala 2... mais perigo à frente.";
+        break;
+    default:
+        current_dialog = "Um inimigo genérico murmura algo.";
+        break;
+}  
+
+dialog_index = 0;
+dialog_active = true;
+ 

@@ -44,4 +44,16 @@ if(_col)
 
 y += velv;
 
+// Colisão com a plataforma móvel (somente se estiver caindo)
+if (velv > 0 && place_meeting(x, y + 1, obj_plataforma)) {
+
+    var p = instance_place(x, y + 1, obj_plataforma);
+
+    // Corrigir posição para ficar exatamente sobre a plataforma
+    y = p.bbox_top - (bbox_bottom - y);
+    velv = 0;
+
+    // Andar junto com a plataforma
+    x += p.velocidade * p.direcao;
+}
 
