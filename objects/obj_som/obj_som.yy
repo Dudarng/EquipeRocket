@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oCamera",
+  "%Name":"obj_som",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oCamera",
+  "name":"obj_som",
   "overriddenProperties":[],
   "parent":{
-    "name":"camera",
-    "path":"folders/Objetos/camera.yy",
+    "name":"som",
+    "path":"folders/Objetos/som.yy",
   },
   "parentObjectId":null,
   "persistent":true,
