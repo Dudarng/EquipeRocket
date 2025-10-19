@@ -1,1 +1,1 @@
- luz = surface_create(room_width, room_height ) 
+  luz = surface_create(room_width, room_height ) 
