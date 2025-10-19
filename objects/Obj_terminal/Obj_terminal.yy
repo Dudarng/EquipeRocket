@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_door",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_terminal",
+  "eventList":[],
   "managed":true,
-  "name":"obj_door",
+  "name":"Obj_terminal",
   "overriddenProperties":[],
   "parent":{
     "name":"Interects",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spt_escada",
-    "path":"sprites/spt_escada/spt_escada.yy",
+    "name":"spr_terminal",
+    "path":"sprites/spr_terminal/spr_terminal.yy",
   },
   "spriteMaskId":null,
   "visible":true,
