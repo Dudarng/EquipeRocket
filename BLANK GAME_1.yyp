@@ -11,7 +11,7 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Anotações","folderPath":"folders/Anotações.yy","name":"Anotações","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Caminhos","folderPath":"folders/Caminhos.yy","name":"Caminhos","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Caminhos","folderPath":"folders/Cenas/Caminhos.yy","name":"Caminhos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Cenas","folderPath":"folders/Cenas.yy","name":"Cenas","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Conjuntos de tiles","folderPath":"folders/Conjuntos de tiles.yy","name":"Conjuntos de tiles","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Curvas da animação","folderPath":"folders/Curvas da animação.yy","name":"Curvas da animação","resourceType":"GMFolder","resourceVersion":"2.0",},
