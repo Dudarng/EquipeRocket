@@ -22,10 +22,10 @@ velv += grav;
 var item = instance_place(x, y, obj_box);
 
 
-if (item != noone && keyboard_check(ord("K"))) {
+if (item != noone && keyboard_check(ord(" "))) {
     item.isCarried = true;
     item.carrier = id;
-}
+} 
 
 else {
     with (obj_box) { 
