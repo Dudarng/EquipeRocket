@@ -51,6 +51,7 @@
     {"id":{"name":"obj_luz","path":"objects/obj_luz/obj_luz.yy",},},
     {"id":{"name":"obj_menu_controller","path":"objects/obj_menu_controller/obj_menu_controller.yy",},},
     {"id":{"name":"obj_moeda","path":"objects/obj_moeda/obj_moeda.yy",},},
+    {"id":{"name":"obj_pause","path":"objects/obj_pause/obj_pause.yy",},},
     {"id":{"name":"obj_plataforma","path":"objects/obj_plataforma/obj_plataforma.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"Obj_terminal","path":"objects/Obj_terminal/Obj_terminal.yy",},},
