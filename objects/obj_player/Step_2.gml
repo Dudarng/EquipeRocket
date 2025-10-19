@@ -1,13 +1,18 @@
 if(global.pause){
-	image_speed = 0
-	exit 
-	} 
-	
-else{
-	image_speed = 1 //mudar se edu fizer animacao	
+    image_speed = 0;
+    exit;
+} 
+else {
+    if (velh != 0) {
+        sprite_index = spt_player_walk;
+        image_xscale = sign(-velh); 
+        image_speed = 0.2;
+    } else {
+        sprite_index = spt_player;
+        image_xscale = 1;         
+        image_speed = 0;
+    }
 }
-
-
 
 
 var _col = instance_place(x+velh, y, obj_chao);
