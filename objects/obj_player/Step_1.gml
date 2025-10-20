@@ -21,12 +21,13 @@ velv += grav;
 if(room != Room_1 && room != Room_1_1 && room != Room_1_3 && room != Room_2){
 if(_jump && (_chao||_plataforma)){
 	velv= -vel_jump;
+	AudioPlaySFX(queda);
 }
 }
 else{
 	velv += grav;
 }
 
-
+ 
 
 
