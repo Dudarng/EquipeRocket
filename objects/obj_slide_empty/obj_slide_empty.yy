@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_slot",
+  "%Name":"obj_slide_empty",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_slot",
+  "name":"obj_slide_empty",
   "overriddenProperties":[],
   "parent":{
     "name":"puzzle2",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite20",
-    "path":"sprites/Sprite20/Sprite20.yy",
+    "name":"spr_renoir",
+    "path":"sprites/spr_renoir/spr_renoir.yy",
   },
   "spriteMaskId":null,
   "visible":true,
