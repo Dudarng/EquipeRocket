@@ -28,7 +28,6 @@ if(_col)
 	}
 	
 	velh = 0;
-	AudioPlaySFX(queda);
 }
 
 
