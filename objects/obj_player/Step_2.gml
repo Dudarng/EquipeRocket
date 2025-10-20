@@ -4,11 +4,21 @@
 } 
 else {
     if (velh != 0) {
+		if(room != Room_1 && room != Room_1_1){
         sprite_index = spt_player_walk;
+		}
+		else{
+		 sprite_index = spr_bot_walk;
+		}
         image_xscale = sign(-velh); 
         image_speed = 0.2;
     } else {
-        sprite_index = spt_player;
+		if(room != Room_1 && room != Room_1_1){
+		 sprite_index = spt_player;
+		}
+       else{
+	    sprite_index = spr_bot_idle;
+	   }
         image_xscale = 1;         
         image_speed = 0;
     }

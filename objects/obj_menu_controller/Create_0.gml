@@ -1,3 +1,3 @@
-  menu_options = ["Novo Jogo", "Configurações", "Sair"];
+  menu_options = ["New Game", "Configuration", "Leave"];
 selected = 0; 
 

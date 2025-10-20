@@ -11,7 +11,7 @@ if (keyboard_check_pressed(vk_space)) {
             room_goto(Room_1); 
             break;
         case 1:
-            show_message("Configs kkkk");
+            show_message("WIP");
             break;
         case 2:
             game_end();

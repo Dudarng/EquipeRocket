@@ -1,4 +1,4 @@
- show_message("CRITICAL FAILURE DETECTED: ERR_00x122222\nUnauthorized Log out\n\nYou should not have done that…")
+ show_message("Tela de erro: CRITICAL FAILURE DETECTED: ERR_00xYOU  \n\who would you save? Yourself or the people you care about?\n\Humans are selfish by nature.")
 
  room_goto_next()
   

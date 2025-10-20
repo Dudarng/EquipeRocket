@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite20",
-    "path":"sprites/Sprite20/Sprite20.yy",
+    "name":"button_puzzle2",
+    "path":"sprites/button_puzzle2/button_puzzle2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
