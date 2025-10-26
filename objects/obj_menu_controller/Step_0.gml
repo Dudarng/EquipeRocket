@@ -15,6 +15,8 @@ if (keyboard_check_pressed(vk_space)) {
             break;
         case 2:
             game_end();
+		case 3:
+		 room_goto(Room_test);
             break;
     }
 }

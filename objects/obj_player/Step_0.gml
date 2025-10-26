@@ -29,8 +29,11 @@ if (_item != noone && keyboard_check(ord(" "))) {
 
 // Verifica chão/plataforma
 var _chao = place_meeting(x, y + 1, obj_chao);
-var _plat = place_meeting(x, y + 1, obj_plataforma);
+var _plat = instance_place(x, y + 1, obj_plataforma);
 
+if (_plat != noone && global.noChao) {
+    x += _plat.velocidade * _plat.direcao;
+}
 //Pulo
 if (_jump && (_chao || _plat) && !(_chao && room == Room_1)) {
     velv = -vel_jump;
