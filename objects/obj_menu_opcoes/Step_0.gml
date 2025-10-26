@@ -7,16 +7,10 @@ selected = clamp(selected, 0, array_length(menu_options) - 1);
 
 if (keyboard_check_pressed(vk_space)) {
     switch (selected) {
-        case 0:
-            room_goto(Room_1); 
-            break;
+        
         case 1:
-            room_goto(Menu_opcoes);
+            room_goto(Menu);
             break;
-        case 2:
-            game_end();
-		case 3:
-		 room_goto(Room_test);
-            break;
+       
     }
 }
