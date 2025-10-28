@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"move_and_colide",
+  "%Name":"move_and_collide",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"move_and_colide",
+  "name":"move_and_collide",
   "parent":{
     "name":"enginegame",
     "path":"folders/Scripts/enginegame.yy",

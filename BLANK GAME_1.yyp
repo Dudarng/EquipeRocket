@@ -123,7 +123,7 @@
     {"id":{"name":"Room_9","path":"rooms/Room_9/Room_9.yy",},},
     {"id":{"name":"can_go_up","path":"scripts/can_go_up/can_go_up.yy",},},
     {"id":{"name":"get_yoffset_on_slopes","path":"scripts/get_yoffset_on_slopes/get_yoffset_on_slopes.yy",},},
-    {"id":{"name":"move_and_colide","path":"scripts/move_and_colide/move_and_colide.yy",},},
+    {"id":{"name":"move_and_collide","path":"scripts/move_and_collide/move_and_collide.yy",},},
     {"id":{"name":"on_ground","path":"scripts/on_ground/on_ground.yy",},},
     {"id":{"name":"on_jumpthrough","path":"scripts/on_jumpthrough/on_jumpthrough.yy",},},
     {"id":{"name":"on_slope","path":"scripts/on_slope/on_slope.yy",},},
