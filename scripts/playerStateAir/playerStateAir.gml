@@ -10,10 +10,10 @@ function playerStateAir() {
 		exit;
 	}
 
-	yvel += 0.17
+	yvel += grav
 
-	if yvel > 3
-		yvel = 3
+	if yvel > terminal_velocity
+		yvel = terminal_velocity
 
 
 }

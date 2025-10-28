@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"playerStateGround",
   "parent":{
-    "name":"enginegame",
-    "path":"folders/Scripts/enginegame.yy",
+    "name":"Player States",
+    "path":"folders/Scripts/Player States.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

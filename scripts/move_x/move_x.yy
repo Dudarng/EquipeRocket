@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"can_go_up",
+  "%Name":"move_x",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"can_go_up",
+  "name":"move_x",
   "parent":{
-    "name":"enginegame",
-    "path":"folders/Scripts/enginegame.yy",
+    "name":"Platforming Engine",
+    "path":"folders/Scripts/Platforming Engine.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

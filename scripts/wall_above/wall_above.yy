@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"move_and_collide",
+  "%Name":"wall_above",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"move_and_collide",
+  "name":"wall_above",
   "parent":{
-    "name":"enginegame",
-    "path":"folders/Scripts/enginegame.yy",
+    "name":"Platforming Engine",
+    "path":"folders/Scripts/Platforming Engine.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

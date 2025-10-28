@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"on_slope",
   "parent":{
-    "name":"enginegame",
-    "path":"folders/Scripts/enginegame.yy",
+    "name":"Platforming Engine",
+    "path":"folders/Scripts/Platforming Engine.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

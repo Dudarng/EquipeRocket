@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"get_yoffset_on_slopes",
   "parent":{
-    "name":"enginegame",
-    "path":"folders/Scripts/enginegame.yy",
+    "name":"Drawing",
+    "path":"folders/Scripts/Drawing.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

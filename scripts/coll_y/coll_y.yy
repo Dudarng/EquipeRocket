@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"wall_on_side",
+  "%Name":"coll_y",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"wall_on_side",
+  "name":"coll_y",
   "parent":{
-    "name":"enginegame",
-    "path":"folders/Scripts/enginegame.yy",
+    "name":"Platforming Engine",
+    "path":"folders/Scripts/Platforming Engine.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

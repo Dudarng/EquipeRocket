@@ -7,8 +7,8 @@ if (isCarried) {
 else {
 	//gravidade
     velv += grav;
-    if (place_meeting(x, y + velv, obj_chao)) {
-        while (!place_meeting(x, y + sign(velv), obj_chao)) {
+    if (place_meeting(x, y + velv, oWall)) {
+        while (!place_meeting(x, y + sign(velv), oWall)) {
             y += sign(velv);
         }
         velv = 0; 
