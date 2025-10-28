@@ -24,3 +24,5 @@ state_is_new		= _state_current != state_current
 state_timer			= state_is_new ? 0 : state_timer + 1
 
 // Movement after all state calculations
+move_and_collide()
+	

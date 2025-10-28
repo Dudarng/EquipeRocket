@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"move_and_colide",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"move_and_colide",
+  "parent":{
+    "name":"enginegame",
+    "path":"folders/Scripts/enginegame.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

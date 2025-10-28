@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"playerStateGround",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"playerStateGround",
+  "parent":{
+    "name":"enginegame",
+    "path":"folders/Scripts/enginegame.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

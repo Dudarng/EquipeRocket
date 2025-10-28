@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"playerStateAir",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"playerStateAir",
+  "parent":{
+    "name":"enginegame",
+    "path":"folders/Scripts/enginegame.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

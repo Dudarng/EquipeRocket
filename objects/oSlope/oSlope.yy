@@ -9,7 +9,10 @@
     "name":"collisions",
     "path":"folders/Objetos/collisions.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"oSolid",
+    "path":"objects/oSolid/oSolid.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sSlope",
+    "path":"sprites/sSlope/sSlope.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

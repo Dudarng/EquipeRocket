@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"on_wall",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"on_wall",
+  "parent":{
+    "name":"enginegame",
+    "path":"folders/Scripts/enginegame.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

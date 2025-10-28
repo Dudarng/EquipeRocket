@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"can_go_up",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"can_go_up",
+  "parent":{
+    "name":"enginegame",
+    "path":"folders/Scripts/enginegame.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

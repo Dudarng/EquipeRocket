@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"get_yoffset_on_slopes",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"get_yoffset_on_slopes",
+  "parent":{
+    "name":"enginegame",
+    "path":"folders/Scripts/enginegame.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
