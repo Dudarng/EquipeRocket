@@ -1,6 +1,7 @@
 ///@func move_y(yvel, [instance])
 ///@arg yvel
 ///@arg [instance]
+//funacao de movimentacao vertical
 function move_y() {
 
 	var _yvel    = argument[0]
@@ -16,7 +17,7 @@ function move_y() {
 	{
 	    repeat(abs(_yvel))
 	    {
-	        // Going down
+	       
 	        if _ydir
 	        {
 	            if !on_ground()
@@ -26,7 +27,7 @@ function move_y() {
 	            else
 	                return 0
 	        }
-	        // Going up
+	        
 	        else
 	        {
 	            if !wall_above()

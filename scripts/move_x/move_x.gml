@@ -4,13 +4,13 @@
 ///@arg [instance]
 function move_x() {
 
-	// Apply default arguments
-	var _xvel    = argument[0]  // Notice how _xvel becomes a local variable
-	var _xdir    = sign(_xvel)  // Also _xdir becomes a local
-	var instance = self
+	//evitar bug cria a  variaveis default
+	var _xvel    = argument[0]  
+	var _xdir    = sign(_xvel)  
+	var instance = self //alvo do movimento
 	var do_slope = false
 	
-	// Override variable number default arguments
+	// se foi passado como argumento reescreve
 	switch (argument_count)
 	{
 	  case 3: instance = argument[2];
@@ -19,18 +19,19 @@ function move_x() {
 
 	with(instance)
 	{
-	  // Movement/Collision X
+	  //incremento em looping
 	  repeat(abs(_xvel))
 	  {
+		  //verifica a colisao
 	    if !place_meeting(x + _xdir, y, oWall)
 	    {
 	      x += _xdir
-
+			//verifica se tem rampas
 	      if do_slope && !slope_move(_xdir)
-	          return 0 // We couldn't move on a slope
+	          return 0 
 	    }
 	    else
-	      return 0 // If we collided with something, return 0
+	      return 0 //se colidir F no chat
 	  }
 	}
 

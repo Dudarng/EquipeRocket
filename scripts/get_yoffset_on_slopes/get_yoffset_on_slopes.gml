@@ -1,18 +1,19 @@
+//funcao para as rampas
 function get_yoffset_on_slopes() {
 
 	var slope = on_slope()
 
 	if !slope
 		return 0
-
+	//verifica se tal na wall
 	if slope.object_index == oSlopeWall
 		return 0
-	
+	//inicia o tamanho das rampas e calcula angulo
 	var slope_height    = abs(slope.sprite_height)
 	var slope_base      = abs(slope.sprite_width)
 	var angle           = arctan(slope_height / slope_base)
 
-	// Slope to the right
+	// verifica se ta para direita
 	if slope.image_xscale < 0
 	{
 	    if x < slope.bbox_right
@@ -21,7 +22,7 @@ function get_yoffset_on_slopes() {
 			return slope.bbox_top
 	}
 
-	// Slope to the left
+	// ou esquerda
 	else if slope.image_xscale > 0
 	{ 
 		if x > slope.bbox_left

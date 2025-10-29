@@ -1,4 +1,6 @@
 ///@func coll_y(ydir, [obj])
+//funcao para colisao vertical
+//faz o mesmo do cooll_x mas na horizontal
 function coll_y() {
 
 	var ydir = argument[0]

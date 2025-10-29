@@ -1,5 +1,5 @@
 ///@func round_vel()
-///@desc Round the xvel/yvel while keeping track of fractions
+//ajuste na movimentacao 
 function round_vel() {
 
 	xvel_fract += xvel;

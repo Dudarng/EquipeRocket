@@ -1,5 +1,7 @@
-/// @description Record GIF
+/// @description GIF
 
+//remover depois (EDUARDA) ou colocar com function no menu
+//teste para salvar um gif para colocar no itchio
 if keyboard_check_pressed(ord("G"))
 {
 	gifrecord = !gifrecord

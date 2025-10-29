@@ -9,7 +9,7 @@ kup    = keyboard_check(ord("W"))
 xaxis	= kright - kleft
 yaxis	= kdown - kup
 
-// Calculate speeds
+// calculo da velocidade
 if abs(xaxis)
 {
 	xvel = walk_speed * xaxis
@@ -20,16 +20,16 @@ else{
 	xvel = 0
 	sprite_index = spr_bot_idle
 }
-// Simple State Machine
+// estados
 var _state_current	= state_current
 script_execute(state_current)
 state_is_new		= _state_current != state_current
 state_timer			= state_is_new ? 0 : state_timer + 1
 
-// Movement after all state calculations
+
 round_vel()
 
-// Let the instance decide what to do when it can't move
+// verificacao de movimentacao e colisao pog
 if !move_x(xvel_int, true)
 {
     xvel       = 0

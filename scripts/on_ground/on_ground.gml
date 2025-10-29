@@ -1,5 +1,6 @@
 ///@func on_ground()
-///@desc return instance_id of the colliding ground object or noone if not colliding
+//verifica se esta tocando no "chao"
+//retorna o id ou "none"
 function on_ground() {
 
 	return on_wall() || on_slope() || on_jumpthrough()

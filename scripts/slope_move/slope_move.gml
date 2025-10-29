@@ -1,13 +1,14 @@
 ///@func slope_move( xdir )
 ///@arg xdir
+//movimentacao na rampa
 function slope_move() {
 
 	var _xdir = argument[0]
 
-	// Inside a slope (must go up)
+	//subir na rampa
 	if collision_point(x, y - 1, oSlope, true, true)
 	{
-	    // If we cannot move up, we must go back.
+	    
 	    if !move_y(-1)
 	    {
 	        x -= _xdir
@@ -15,10 +16,10 @@ function slope_move() {
 	    }
 	}
 
-	// On a slope going down
+	// descer
 	if !on_ground() && collision_point(x, y + 1, oSlope, true, true)
 	{
-	    move_y(1) // Hey there! Hello move_y, my friend!
+	    move_y(1)
 	}
 
 	return true
