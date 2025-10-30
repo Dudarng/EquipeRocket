@@ -10,8 +10,8 @@
   "name":"oPlayer",
   "overriddenProperties":[],
   "parent":{
-    "name":"collisions",
-    "path":"folders/Objetos/collisions.yy",
+    "name":"player",
+    "path":"folders/Objetos/player.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -3,7 +3,7 @@
 function on_jumpthrough() {
 
 	//plataforma em baixo?
-	var on_platform = collision_rectangle(bbox_left, bbox_bottom + 1, bbox_right, bbox_bottom + 1, oJumpthrough, false, true)
+	var on_platform = collision_rectangle(bbox_left, bbox_bottom + 1 , bbox_right, bbox_bottom +1  , oJumpthrough, false, true)
 	
 	if !on_platform
 		return noone
