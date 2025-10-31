@@ -1,16 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_plataforma",
+  "%Name":"obj_save_manager",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_plataforma",
+  "name":"obj_save_manager",
   "overriddenProperties":[],
   "parent":{
-    "name":"chao",
-    "path":"folders/Objetos/chao.yy",
+    "name":"menu",
+    "path":"folders/Objetos/menu.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_plataforma",
-    "path":"sprites/spr_plataforma/spr_plataforma.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

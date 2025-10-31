@@ -1,4 +1,6 @@
 global.musica_ligada = true;
+// Inicializar variável de pause
+
 
 // Garante que todas as variáveis globais existam
 if (!variable_global_exists("musica_ligada")) {

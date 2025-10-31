@@ -1,4 +1,0 @@
-if(keyboard_check_pressed(vk_escape)){
-	//pause poggers
-	global.pause = !global.pause
-}

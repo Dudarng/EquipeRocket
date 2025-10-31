@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_chao",
+  "%Name":"obj_pause_menu",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_chao",
+  "name":"obj_pause_menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"chao",
-    "path":"folders/Objetos/chao.yy",
+    "name":"menu",
+    "path":"folders/Objetos/menu.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spt_chao",
-    "path":"sprites/spt_chao/spt_chao.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
