@@ -1,4 +1,4 @@
-/// @description Basic Player actions
+ /// @description Basic Player actions
 
 kright = keyboard_check(ord("D"))
 kleft  = keyboard_check(ord("A"))
